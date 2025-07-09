@@ -14,7 +14,8 @@
                 <td>{{product.name}}</td>
                 <td>{{product.price |currency:"USD"}}</td>
                 <td>
-                    <button type="button" (click)="editProduct()">Edit</button>
+                    <!-- <button type="button" (click)="editProduct()">Edit</button> -->
+                    <button type="button" [routerLink]="['/edit',product.id]">Edit</button>
                     <button type="button">Delete</button>
                 </td>
             </tr>

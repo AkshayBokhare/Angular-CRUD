@@ -2,13 +2,14 @@ import { Component } from '@angular/core';
 import { Products } from '../products/products';
 import { ProductService } from '../service/product.service';
 import { CommonModule } from '@angular/common';
-import { Router } from '@angular/router';
+import { Router, RouterLink } from '@angular/router';
 import { AddProductsComponent } from "../add-products/add-products.component";
+import { FormsModule } from '@angular/forms';
 
 @Component({
   selector: 'app-home',
   standalone: true,
-  imports: [CommonModule],
+  imports: [CommonModule,FormsModule,RouterLink],
   templateUrl: './home.component.html',
   styleUrl: './home.component.css'
 })
