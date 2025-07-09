@@ -1,0 +1,26 @@
+<div class="body-container">
+    <table>
+        <thead>
+            <tr>
+                <th>Id</th>
+                <th>Name</th>
+                <th>Price</th>
+                <th>Action</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor="let product of products">
+                <td>{{product.id}}</td>
+                <td>{{product.name}}</td>
+                <td>{{product.price |currency:"USD"}}</td>
+                <td>
+                    <button type="button" (click)="editProduct()">Edit</button>
+                    <button type="button">Delete</button>
+                </td>
+            </tr>
+        </tbody>
+        <button id="addProduct" type="button"(click)="addProduct()">Add Products</button>
+    </table>
+ 
+</div>
+
