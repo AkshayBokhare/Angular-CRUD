@@ -1,64 +1,14 @@
 {
   "products": [
     {
+      "id": "5",
+      "name": "Oppo Rino",
+      "price": 12233
+    },
+    {
       "id": "1",
-      "name": "I Phonewwwwwwww",
+      "name": "I Phone",
       "price": 40000
-    },
-    {
-      "id": "2",
-      "name": "dss",
-      "price": 10000
-    },
-    {
-      "id": "3",
-      "name": "Eggs ",
-      "price": 1111111111111111
-    },
-    {
-      "id": "0",
-      "name": "Oppo",
-      "price": 233894
-    },
-    {
-      "id": "0",
-      "name": "Samsung",
-      "price": 121212
-    },
-    {
-      "id": "0",
-      "name": "",
-      "price": 0
-    },
-    {
-      "id": "0",
-      "name": "",
-      "price": 0
-    },
-    {
-      "id": "123",
-      "name": "ZTC",
-      "price": 134567
-    },
-    {
-      "id": "0",
-      "name": "",
-      "price": 0
-    },
-    {
-      "id": "0",
-      "name": "",
-      "price": 0
-    },
-    {
-      "id": "0",
-      "name": "",
-      "price": 0
-    },
-    {
-      "id": "0",
-      "name": "",
-      "price": 0
     }
   ]
 }

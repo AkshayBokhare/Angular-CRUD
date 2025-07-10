@@ -39,5 +39,15 @@ export class HomeComponent {
   editProduct(){
     this.router.navigate(["/edit"]);
   }
- 
+
+  deleteProduct(id:number) {
+
+    this.productService.deleteProduct(id)
+    .subscribe(()=>{
+      this.products =this.products.filter(product =>{
+        product.id != id;
+      })
+    });
+  
+  }
 }
